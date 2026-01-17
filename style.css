@@ -310,6 +310,7 @@ background-color: rgb(42, 165, 151);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(1, 3fr);
+    gap: 20px;
 }
 #sem img{
     width: 100%;
