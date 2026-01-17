@@ -154,6 +154,49 @@ body{
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
 }
+/* run-section */
+.run{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color:rgba(80, 77, 77, 0.452);
+    padding: 45px;
+    border-radius: 10px;
+    align-items: center;
+   
+
+}
+.run-pragraph{
+    color: aliceblue;
+    width: 443px;
+    
+}
+.run-pragraph h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: azure;
+}
+.run-pragraph p{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 20px 0;
+}
+.run-button{
+    width: 244px;
+    background-color: #E6533C;
+    padding: 10px 30px;
+    border-radius: 35px;
+    color: azure;
+    margin-bottom: 20px;
+}
+.run-img img{
+    width: 366px;
+    border-radius: 15px;
+    
+    
+}
 
 
 
@@ -200,4 +243,26 @@ body{
 width: 100%;
 
 
+}
+/* run-section */
+.run{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    
+}
+.run-img img{
+    width: 98%;
+}
+.run-pragraph{
+    width: 100%;
+}
+.run-pragraph h2{
+    font-size: 2.2rem;
+}
+.run-pragraph p{
+    font-size: 16px;
+}
 }
