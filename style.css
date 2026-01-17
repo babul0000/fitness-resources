@@ -115,8 +115,45 @@ body{
 
 }
 
-
-
+/* fitness section */
+.fitness{
+    max-width: 1200px;
+    margin: 150px auto;
+}
+.fitness-pragraph{
+    width: 60%;
+   margin: 0 auto;
+    text-align: center;
+}
+.fitness-pragraph h2{
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.fitness-pragraph p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 70px;
+}
+.fitness-skills{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+}
+.fitness-skills img{
+    border-radius: 50%;
+}
+.fitness-skills h4{
+    font-size: 1.3rem;
+    color: azure;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.fitness-skills p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
 
 
 
@@ -152,5 +189,15 @@ body{
 }
 .heading-btn>button{
     width: 50%;
+
+}
+/* fitness section */
+
+.fitness-skills{
+    display: block;
+}
+.fitness-pragraph{
+width: 100%;
+
 
 }
