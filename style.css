@@ -339,9 +339,79 @@ background-color: rgb(42, 165, 151);
 .trainer{
     border-radius: 15px;
 }
-
-
-
+.about{
+    background-color: rgb(24, 23, 23);
+    padding: 40px 0 30px 0;
+}
+#about-container{
+    max-width: 1200px;
+    margin: 150px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.about-fitness {
+    grid-column: 1/ span 2;
+}
+.about-fitness h1{
+    color: #E6533C;
+    font-style: italic;
+    font-size: 4.5rem;
+    font-weight: 1000;
+    /* grid-column: 1/ span 2; */
+}
+.about-fitness p{
+    color: rgba(107, 107, 107, 0.805);
+    margin-top: 25px;
+    font-size: 14px;
+    width: 70%;
+}
+.about-contract h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contract-box li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.contract-box a{
+    text-decoration: none;
+    color: #838080cf;
+    margin-bottom: 10px;
+}
+.about-service h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.service-box li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.service-box a{
+    text-decoration: none;
+    color: #838080cf;
+    margin-bottom: 10px;
+}
+footer{
+    color: rgb(109, 112, 112);
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.hr{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
 
 
 
@@ -430,5 +500,15 @@ width: 100%;
     /* grid-template-rows: repeat(1, 3fr); */
     gap: 20px;
     
+}
+#about-container{
+    display: inline;
+    
+}
+.about-fitness{
+    margin-bottom: 35px;
+}
+.about-contract{
+    margin-bottom: 35px;
 }
 }
